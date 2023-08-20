@@ -1,0 +1,39 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+    top: 0;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	&__logo-svg {
+		width: 210px;
+		height: 30px;
+	}
+	&__nav-menu {
+		color: #FFF;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+}
+.nav-menu {
+	&__list {
+        align-items: center;
+		display: flex;
+		column-gap: 20px;
+	}
+	&__item {
+		&_get-access {
+            color: #FFF;
+            padding: 10px 20px;
+            background: #EB2828;
+		}
+	}
+}

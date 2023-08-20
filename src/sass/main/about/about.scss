@@ -1,0 +1,152 @@
+.about {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 220px auto 0 auto;
+	&__block-inform {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		max-width: 640px;
+	}
+	&__quote {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		max-width: 606px;
+	}
+}
+.block-inform {
+	&__link {
+		text-align: center;
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+
+		background: linear-gradient(
+			79deg,
+			rgba(254, 163, 57, 0.6) 0%,
+			rgba(235, 40, 40, 0.6) 33.33%,
+			rgba(245, 50, 97, 0.6) 66.67%,
+			rgba(245, 45, 237, 0.6) 100%
+		);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	&__title {
+		color: #fff;
+		font-family: Inter;
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+		margin-top: 40px;
+		margin-bottom: 70px;
+
+		& > span {
+			color: #eb2828;
+			font-family: Inter;
+			font-size: 64px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			letter-spacing: -0.4px;
+		}
+	}
+	&__text-block {
+		display: flex;
+		column-gap: 40px;
+		& > p {
+			max-width: 300px;
+			color: #aaa;
+			font-family: Inter;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			letter-spacing: -0.4px;
+
+			& > span {
+				color: #aaa;
+				font-family: Inter;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				letter-spacing: -0.4px;
+			}
+		}
+	}
+}
+.quote {
+	display: flex;
+	padding: 20px 50px 20px 0px;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 40px;
+
+	border-right: 5px solid transparent;
+	border-image: linear-gradient(
+			to bottom,
+			rgba(254, 163, 57, 1),
+			rgba(235, 40, 40, 1),
+			rgba(245, 50, 97, 1),
+			rgba(245, 45, 237, 1)
+		)
+		1;
+	&__text {
+		color: rgba(255, 255, 255, 0.7);
+		text-align: right;
+		font-family: Inter;
+		font-size: 34px;
+		font-style: italic;
+		font-weight: 300;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+	&__account {
+		display: flex;
+		align-items: center;
+		column-gap: 30px;
+	}
+}
+
+.account {
+	&__full-name {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		text-align: right;
+	}
+	&__ava {
+		width: 64px;
+		height: 64px;
+
+		width: 64px;
+		height: 64px;
+	}
+}
+.full-name {
+	&__name {
+		color: #fff;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	&__surname {
+		color: #aaabbc;
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}

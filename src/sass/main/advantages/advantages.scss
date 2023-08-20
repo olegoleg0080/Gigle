@@ -1,0 +1,134 @@
+.advantages {
+	display: flex;
+	max-width: 1440px;
+	flex-direction: column;
+	margin: 350px auto 0 auto;
+	align-items: center;
+	row-gap: 100px;
+	&__center-block {
+		display: flex;
+		flex-direction: column;
+	}
+	&__coment {
+		color: rgba(255, 255, 255, 0.15);
+		font-family: Inter;
+		font-size: 24px;
+		font-style: italic;
+		font-weight: 300;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+}
+.center-block {
+	align-items: center;
+	max-width: 787px;
+	&__link {
+		text-align: center;
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+
+		background: linear-gradient(
+			79deg,
+			rgba(254, 163, 57, 0.6) 0%,
+			rgba(235, 40, 40, 0.6) 33.33%,
+			rgba(245, 50, 97, 0.6) 66.67%,
+			rgba(245, 45, 237, 0.6) 100%
+		);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	&__title {
+		color: #fff;
+		text-align: center;
+		font-family: Inter;
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+		margin-top: 40px;
+		margin-bottom: 30px;
+
+		& > span {
+			color: #eb2828;
+			font-family: Inter;
+			font-size: 64px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			letter-spacing: -0.4px;
+		}
+	}
+	&__subtitle {
+		color: #aaa;
+		text-align: center;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+}
+.cards {
+	max-width: 1240px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	&__item {
+		display: flex;
+		width: 400px;
+		height: 320px;
+		padding: 50px 40px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 30px;
+		flex-shrink: 0;
+
+		border: 5px solid rgba(235, 40, 40, 0.3);
+		background: rgba(235, 40, 40, 0.02);
+		box-shadow: 0px 0px 80px 0px rgba(254, 163, 57, 0.1) inset;
+	}
+}
+.item {
+	&__logo {
+		color: #fff;
+		font-family: Segoe UI;
+		font-size: 42px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+}
+.logo-mono {
+	width: 85px;
+	height: 42px;
+}
+.content {
+	gap: 25px;
+	&__title {
+		color: #fff;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+	&__text {
+		color: #fff;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+}

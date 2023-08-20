@@ -1,0 +1,66 @@
+.bg-top {
+	padding-top: 198px;
+	background-image: url(../img/BG.png);
+}
+.top-block {
+	max-width: 1240px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		max-width: 528px;
+		padding-top: 140px;
+		padding-bottom: 140px;
+		row-gap: 80px;
+	}
+	&__title {
+		color: #fff;
+		font-family: Inter;
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+	&__title > span {
+		background: linear-gradient(
+			90deg,
+			#fea339 0%,
+			#eb2828 33.33%,
+			#f53261 66.67%,
+			#f52ded 100%
+		);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	&__get-acces {
+        max-width: 345px;
+        padding: 20px 50px;
+		color: #fff;
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.4px;
+
+		border-radius: 15px;
+		background: linear-gradient(0deg, #eb2828 0%, #eb2828 100%),
+			linear-gradient(
+				42deg,
+				#fea339 0%,
+				#eb2828 33.33%,
+				#f53261 66.67%,
+				#f52ded 100%
+			);
+	}
+	&__phone-img {
+		width: 380px;
+		height: 773px;
+	}
+}

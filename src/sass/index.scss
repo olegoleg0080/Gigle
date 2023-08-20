@@ -2,3 +2,9 @@
 @import './common';
 @import './example';
 @import './header/header.scss';
+@import './main/top-block/top-block.scss';
+@import './main/about/about.scss';
+@import './main/advantages/advantages.scss';
+main{
+padding-top: 124px;
+}
