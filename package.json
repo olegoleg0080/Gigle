@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/olegoleg0080/Gigle",
+  "homepage": "https://github.com/olegoleg0080/Gigle.git",
   "scripts": {
     "start": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /Gigle/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olegoleg0080/Gigle"
+    "url": "git+https://github.com/olegoleg0080/Gigle.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zetonen/parcel-template/issues"
+    "url": "https://github.com/olegoleg0080/Gigle/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
