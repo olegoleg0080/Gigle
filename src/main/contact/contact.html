@@ -1,0 +1,63 @@
+<section class="contact">
+	<div class="contact__center-block center-block">
+		<p class="center-block__link" id="contact">КОНТАКТИ</p>
+		<h1 class="center-block__title">Привіт бета-учасникам<span>!</span></h1>
+		<p class="center-block__subtitle">
+			Якщо у вас залишились питання або ви хочете взяти участь у
+			тестуванні,можете написати нам через зручну лінію зв’язку, або лишивши
+			повідомлення прямо тут
+		</p>
+	</div>
+	<!-- * contact button -->
+	<div class="contact__btn">
+		<button class="contact__btn-telegram">
+			<p>Telegram</p>
+			<svg class="contat__btn_svg-tg">
+				<use href="./svg/tg.svg#tg"></use>
+			</svg>
+		</button>
+		<button class="contact__btn-gmail">
+			<p>Gmail</p>
+			<svg class="contat__btn_svg-gmail">
+				<use href="./svg/gmail.svg#gmail"></use>
+			</svg>
+		</button>
+	</div>
+	<!-- * or -->
+	<p class="contact__or-text">АБО</p>
+	<!-- * contact form -->
+	<div class="form__container">
+		<form action="" class="contact__form form">
+			<div class="form__header">
+				<div class="form__name">
+					<p class="form__text">Як до вас звертатись?</p>
+					<input
+						name="name"
+						class="form__input input_name"
+						type="text"
+						placeholder="Ілон маск"
+					/>
+				</div>
+				<div class="form__contact">
+					<p class="form__text">Як з вами зв’язатись?</p>
+					<input
+						name="contact"
+						class="form__input input_contact"
+						type="text"
+						placeholder="Вкажіть свій телеграм, пошту, тощо..."
+					/>
+				</div>
+			</div>
+			<div class="form__message">
+				<p class="form__text">Ваше повідомлення</p>
+				<textarea
+					style="resize: none"
+					name="message"
+					class="form__textarea_message"
+					placeholder="Лишіть поле пустим, якщо ви хочете прийняти участь у бета тестуванні, або спробувати першим переваги нашої платформи"
+				></textarea>
+			</div>
+			<button class="form__submit">Відправити повідомлення</button>
+		</form>
+	</div>
+</section>
