@@ -1,5 +1,8 @@
 .header {
-	// position: fixed;
+	background-image: url(../img/BG.png);
+	width: 100%;
+	display: flex;
+	position: fixed;
 	&__logo-svg {
 		width: 210px;
 		height: 30px;
@@ -16,9 +19,8 @@
 	&__container {
 		margin: 0 auto;
 		display: flex;
-		justify-content: space-between;
+		column-gap: 355px;
 		align-items: center;
-		max-width: 1440px;
 		padding-top: 30px;
 		padding-left: 40px;
 		padding-right: 40px;

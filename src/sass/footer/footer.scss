@@ -1,0 +1,63 @@
+.footer {
+	width: 100%;
+	padding: 50px 0;
+
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	background: #0c0c0c;
+	&__logo {
+		display: inline-flex;
+		align-items: baseline;
+		column-gap: 15px;
+	}
+	&__btn-group {
+		display: flex;
+		align-items: flex-start;
+		column-gap: 15px;
+	}
+	&__btn {
+		display: flex;
+		padding: 15px;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+	}
+	&__btn--telegram {
+		border: 3px solid #08c;
+		background: #08c;
+	}
+	&__btn-svg {
+		width: 21px;
+		height: 16px;
+	}
+	&__btn--gmail {
+		border: 3px solid #bf4500;
+		background: #bf4500;
+	}
+	&__container {
+		margin: 0 auto;
+		max-width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+	}
+}
+
+.logo {
+	&__svg {
+		width: 210px;
+		height: 30px;
+	}
+	&__text {
+		color: #fff;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: -0.4px;
+	}
+	&__img {
+		width: 101px;
+		height: 30px;
+	}
+}
