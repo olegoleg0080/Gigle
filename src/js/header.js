@@ -1,4 +1,3 @@
-// Получаем все ссылки в навигационном меню
 const navLinks = document.querySelectorAll('.nav-menu__item a');
 const headerLink = document.querySelector('a[href="#header"]');
 
