@@ -3,6 +3,7 @@
 	width: 100%;
 	display: flex;
 	position: fixed;
+	z-index: 20;
 	&__logo-svg {
 		width: 210px;
 		height: 30px;
