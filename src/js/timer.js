@@ -9,12 +9,13 @@ function resetTimer() {
 	clearTimeout(timer);
 	timer = setTimeout(modal, 49000);
 	closeTimer.style = 'display: none;';
-}
-
-function modal() {
-	closeTimer.style = 'display: flex;';
-	closeWindow = setTimeout(() => {
-		closeTimer.style = 'display: none;';
-		window.close();
-	}, 10000);
+	clearTimeout(closeWindow)
+	
+	function modal() {
+		closeTimer.style = 'display: flex;';
+		closeWindow = setTimeout(() => {
+			closeTimer.style = 'display: none;';
+			window.close();
+		}, 10000);
+	}
 }
