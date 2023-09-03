@@ -3,7 +3,7 @@ window.addEventListener('load', loadAnimka);
 function loadAnimka() {
     loadAnimation.style = 'display: flex;';
     document.body.style = 'position: fixed;'
-    load = setTimeout(exitLoad, 5000);
+    let load = setTimeout(exitLoad, 5000);
     function exitLoad() {
         loadAnimation.style = 'display: none;';
         document.body.style = 'position: statik;'
