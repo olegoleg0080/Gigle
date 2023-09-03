@@ -6,7 +6,7 @@ document.addEventListener('mousedown', resetTimer);
 document.addEventListener('keypress', resetTimer);
 document.addEventListener('touchmove', resetTimer);
 const closeBtn = document.querySelector('.timer-btn');
-closeBtn.document.addEventListener(closeTimerFunc())
+closeBtn.document.addEventListener('click', closeTimerFunc())
 
 function resetTimer() {
     clearTimeout(timer);
