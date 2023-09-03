@@ -7,16 +7,19 @@ form.addEventListener('submit', event => {
 	let valid = true;
 
 	if (!inputName.value.trim()) {
+		inputContact.classList.remove('error');
 		inputName.classList.add('error');
 		valid = false;
 	}
 	if (!inputContact.value.trim()) {
+		inputContact.classList.remove('error');
 		inputContact.classList.add('error');
 		valid = false;
 	}
 
 	const nameRegex = /^[А-ЯҐЄІЇ][а-яґєії']+\s[А-ЯҐЄІЇ][а-яґєії']+$/;
 	if (!nameRegex.test(inputName.value)) {
+		inputContact.classList.remove('error');
 		inputName.classList.add('error');
 		valid = false;
 	}
