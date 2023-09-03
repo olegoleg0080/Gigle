@@ -58,6 +58,16 @@
 				#f53261 66.67%,
 				#f52ded 100%
 			);
+			&:hover{
+				background: linear-gradient(0deg, #eb2828c6 0%, #eb2828c2 100%),
+			linear-gradient(
+				42deg,
+				#fea339 0%,
+				#eb2828 33.33%,
+				#f53261 66.67%,
+				#f52ded 100%
+			);
+			}
 	}
 	&__phone-img {
 		width: 380px;

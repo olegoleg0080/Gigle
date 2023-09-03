@@ -49,7 +49,7 @@ function windiwLoad() {
                     digitsCounterInit(digitsCountersItems);
                 }
                 // * вимкнути слежку
-                observer.unobserve(targetElement);
+                // observer.unobserve(targetElement);
             }
         });
     }, options);

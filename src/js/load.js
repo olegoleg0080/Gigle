@@ -1,5 +1,5 @@
 const loadAnimation = document.querySelector('.load-wrapper');
-window.addEventListener('load', loadAnimka);
+loadAnimka();
 function loadAnimka() {
     loadAnimation.style = 'display: flex;';
     document.body.style = 'position: fixed;'

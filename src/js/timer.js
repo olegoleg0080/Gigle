@@ -8,7 +8,7 @@ document.addEventListener('touchmove', resetTimer);
 
 function resetTimer() {
     clearTimeout(timer);
-    timer = setTimeout(modal, 49000);
+    timer = setTimeout(modal, 5000);
     closeTimer.style = 'display: none;';
     clearTimeout(closeWindow)
     
