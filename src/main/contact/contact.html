@@ -10,28 +10,29 @@
 	</div>
 	<!-- * contact button -->
 	<div class="contact__btn">
-		<button class="contact__btn-telegram">
+		<a class="contact__btn-telegram">
 			<p>Telegram</p>
 			<svg class="contat__btn_svg-tg">
 				<use href="./svg/tg.svg#tg"></use>
 			</svg>
-		</button>
-		<button class="contact__btn-gmail">
+		</a>
+		<a class="contact__btn-gmail">
 			<p>Gmail</p>
 			<svg class="contat__btn_svg-gmail">
 				<use href="./svg/gmail.svg#gmail"></use>
 			</svg>
-		</button>
+		</a>
 	</div>
 	<!-- * or -->
 	<p class="contact__or-text">АБО</p>
 	<!-- * contact form -->
 	<div class="form__container">
-		<form action="" class="contact__form form">
+		<form class="contact__form form">
 			<div class="form__header">
 				<div class="form__name">
 					<p class="form__text">Як до вас звертатись?</p>
 					<input
+						autocomplete="off"
 						name="name"
 						class="form__input input_name"
 						type="text"
@@ -41,6 +42,7 @@
 				<div class="form__contact">
 					<p class="form__text">Як з вами зв’язатись?</p>
 					<input
+						autocomplete="off"
 						name="contact"
 						class="form__input input_contact"
 						type="text"
@@ -51,6 +53,7 @@
 			<div class="form__message">
 				<p class="form__text">Ваше повідомлення</p>
 				<textarea
+					autocomplete="off"
 					style="resize: none"
 					name="message"
 					class="form__textarea_message"

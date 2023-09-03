@@ -1,7 +1,6 @@
 const loadAnimation = document.querySelector('.load-wrapper');
 loadAnimka();
 function loadAnimka() {
-    loadAnimation.style = 'display: flex;';
     document.body.style = 'position: fixed;'
     let load = setTimeout(exitLoad, 5000);
     function exitLoad() {

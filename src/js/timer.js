@@ -6,11 +6,11 @@ document.addEventListener('mousedown', resetTimer);
 document.addEventListener('keypress', resetTimer);
 document.addEventListener('touchmove', resetTimer);
 const closeBtn = document.querySelector('.timer-btn');
-closeBtn.document.addEventListener('click', closeTimerFunc())
-
+closeBtn.addEventListener('click', closeTimerFunc)
+resetTimer()
 function resetTimer() {
     clearTimeout(timer);
-    timer = setTimeout(modal, 7000);
+    timer = setTimeout(modal, 49000);
     
     function modal() {
         closeTimer.style = 'display: flex;';

@@ -7,7 +7,7 @@ form.addEventListener('submit', event => {
 	let valid = true;
 
 	if (!inputName.value.trim()) {
-		inputContact.classList.remove('error');
+		inputName.classList.remove('error');
 		inputName.classList.add('error');
 		valid = false;
 	}
@@ -19,7 +19,7 @@ form.addEventListener('submit', event => {
 
 	const nameRegex = /^[А-ЯҐЄІЇ][а-яґєії']+\s[А-ЯҐЄІЇ][а-яґєії']+$/;
 	if (!nameRegex.test(inputName.value)) {
-		inputContact.classList.remove('error');
+		inputName.classList.remove('error');
 		inputName.classList.add('error');
 		valid = false;
 	}

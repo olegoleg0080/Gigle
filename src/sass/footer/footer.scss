@@ -24,6 +24,10 @@
 	&__btn--telegram {
 		border: 3px solid #08c;
 		background: #08c;
+		&:hover{
+			border: 3px solid rgb(0, 95, 143);
+		background: rgb(0, 105, 157);
+		}
 	}
 	&__btn-svg {
 		width: 21px;
@@ -32,6 +36,10 @@
 	&__btn--gmail {
 		border: 3px solid #bf4500;
 		background: #bf4500;
+		&:hover{
+			border: 3px solid #8d3400;
+		background: #a03b00;
+		}
 	}
 	&__container {
 		margin: 0 auto;

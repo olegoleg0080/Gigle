@@ -27,6 +27,14 @@
 		font-weight: 500;
 		font-size: 30px;
 	}
+	& > button{
+		width: 200px;
+		height: 50px;
+		background-color: #ff0000;
+		&:hover{
+			background-color: #b50000;
+		}
+	}
 }
 .timer {
 	width: 300px;

@@ -28,6 +28,10 @@
 		border-radius: 15px;
 		border: 2px solid #229ed9;
 		background: #229ed9;
+		&:hover{
+			border: 2px solid #0790cf;
+		background: #0993d2;
+		}
 
 		& > p {
 			color: #fff;
@@ -51,6 +55,10 @@
 		border-radius: 15px;
 		border: 2px solid #db4437;
 		background: #db4437;
+		&:hover{
+			border: 2px solid #d72a1a;
+		background: #d31c0b;
+		}
 
 		& > p {
 			color: #fff;
@@ -85,6 +93,7 @@
 }
 .contat {
 	&__btn {
+
 		&_svg-tg {
 			width: 24px;
 			height: 20px;
@@ -202,6 +211,10 @@
 		border-radius: 15px;
 		border: 2px solid #2361a4;
 		background: #2361a4;
+		&:hover{
+			border: 2px solid #0958ad;
+		background: #0b519d;
+		}
 	}
 	&__name {
 		display: flex;

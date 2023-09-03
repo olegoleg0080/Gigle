@@ -1,6 +1,16 @@
 const navLinks = document.querySelectorAll('.nav-menu__item a');
 const headerLink = document.querySelector('a[href="#header"]');
+const footerLink = document.querySelector('a[href="#footer"]');
 
+footerLink.addEventListener('click', event => {
+	event.preventDefault();
+	console.log('aaaa')
+
+	window.scrollTo({
+		top: 0,
+		behavior: 'smooth',
+	});
+});
 headerLink.addEventListener('click', event => {
 	event.preventDefault();
 
