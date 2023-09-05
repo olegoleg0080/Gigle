@@ -2,28 +2,25 @@ const form = document.querySelector('.contact__form');
 const inputName = document.querySelector('.input_name');
 const inputContact = document.querySelector('.input_contact');
 
-function shake(element) {
-	element.classList.remove('error');
-	element.offsetWidth;
-	element.classList.add('error');
-}
-
 form.addEventListener('submit', event => {
 	event.preventDefault();
 	let valid = true;
 
 	if (!inputName.value.trim()) {
-		shake(inputName);
+		inputName.classList.remove('error');
+		inputName.classList.add('error');
 		valid = false;
 	}
 	if (!inputContact.value.trim()) {
-		shake(inputContact);
+		inputContact.classList.remove('error');
+		inputContact.classList.add('error');
 		valid = false;
 	}
 
 	const nameRegex = /^[А-ЯҐЄІЇ][а-яґєії']+\s[А-ЯҐЄІЇ][а-яґєії']+$/;
 	if (!nameRegex.test(inputName.value)) {
-		shake(inputName);
+		inputName.classList.remove('error');
+		inputName.classList.add('error');
 		valid = false;
 	}
 
